@@ -1,0 +1,35 @@
+priyanshi_gajjar@DESKTOP-ANVCAOP:/mnt/c/project_all/Blockchain/anchor/sentiment-swap$ anchor keys list
+sentiment_swap: EsKpeQxkgdUn8wHeftVmgKLXRa4wM9ThoeTabLiCUmXx
+priyanshi_gajjar@DESKTOP-ANVCAOP:/mnt/c/project_all/Blockchain/anchor/sentiment-swap$ solana-keygen new --no-bip39-passphrase
+Generating a new keypair
+Wrote new keypair to /home/priyanshi_gajjar/.config/solana/id.json
+================================================================================
+pubkey: BppsWy6xqmzmRMNBrhiWHoVkRM8ZEHnzMvfnusHFDByr
+================================================================================
+Save this seed phrase to recover your new keypair:
+bulb coffee spell sting devote crash warrior neutral unhappy gadget rotate scare
+================================================================================
+priyanshi_gajjar@DESKTOP-ANVCAOP:/mnt/c/project_all/Blockchain/anchor/sentiment-swap$ solana config set --url devnet
+solana airdrop 2
+Config File: /home/priyanshi_gajjar/.config/solana/cli/config.yml
+RPC URL: https://api.devnet.solana.com
+WebSocket URL: wss://api.devnet.solana.com/ (computed)
+Keypair Path: /home/priyanshi_gajjar/.config/solana/id.json
+Commitment: confirmed 
+Requesting airdrop of 2 SOL
+Error: airdrop request failed. This can happen when the rate limit is reached.
+priyanshi_gajjar@DESKTOP-ANVCAOP:/mnt/c/project_all/Blockchain/anchor/sentiment-swap$ solana-keygen new --outfile ~/.config/solana/id.json --force --no-bip39-passphrase
+Generating a new keypair
+Wrote new keypair to /home/priyanshi_gajjar/.config/solana/id.json
+=============================================================================
+pubkey: GB1r1KMqpmiKPEyUBYs5vUmeaFbtMPd7XrYD9dFTTQkS
+=============================================================================
+Save this seed phrase to recover your new keypair:
+dizzy alpha matter smooth mystery wolf certain filter add project palace loop
+=============================================================================
+priyanshi_gajjar@DESKTOP-ANVCAOP:/mnt/c/project_all/Blockchain/anchor/sentiment-swap$ solana address
+GB1r1KMqpmiKPEyUBYs5vUmeaFbtMPd7XrYD9dFTTQkS
+priyanshi_gajjar@DESKTOP-ANVCAOP:/mnt/c/project_all/Blockchain/anchor/sentiment-swap$ solana airdrop 2
+Requesting airdrop of 2 SOL
+Error: airdrop request failed. This can happen when the rate limit is reached.
+priyanshi_gajjar@DESKTOP-ANVCAOP:/mnt/c/project_all/Blockchain/anchor/sentiment-swap$ 
