@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.32.1",
+    "@tailwindcss/postcss": "^4.2.1",
     "autoprefixer": "^10.4.27",
     "framer-motion": "^12.35.0",
     "lightningcss": "^1.31.1",
