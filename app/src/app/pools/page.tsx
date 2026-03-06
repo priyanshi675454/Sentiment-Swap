@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/app/components/Navbar";
 import { Plus, Minus, TrendingUp, Droplets } from "lucide-react";
 
 const POOLS = [
