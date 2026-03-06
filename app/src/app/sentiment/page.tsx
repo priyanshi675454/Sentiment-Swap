@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Navbar from "@/app/components/Navbar";
+import Navbar from "@/components/Navbar";
 import { Brain, TrendingUp, TrendingDown, Activity, Users } from "lucide-react";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 

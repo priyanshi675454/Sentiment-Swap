@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Navbar from "@/app/components/Navbar";
+import Navbar from "@/components/Navbar";
 import { Zap, Gift, TrendingUp, Lock } from "lucide-react";
 
 const TIERS = [
